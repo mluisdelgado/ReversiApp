@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.student.marcos.reversi">
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activities.Initial"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        android:configChanges:<activity android:name=".activities.MainActivity" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.student.marcos.reversi.activities.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Preferences"
+            android:label="@string/preferences" >
+            <intent-filter>
+                <action android:name="com.student.marcos.reversi.activities.PREFERENCES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.Menu">
+        <intent-filter>
+            <action android:name="com.student.marcos.reversi.activities.MENU" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    </application>
+
+</manifest>

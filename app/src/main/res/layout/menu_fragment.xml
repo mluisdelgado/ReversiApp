@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+    <Button
+        android:id="@+id/menuButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF9E49"
+        android:text="@string/first_button_text"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/menuButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF9E49"
+        android:text="@string/second_button_text"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/menuButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF9E49"
+        android:text="@string/third_button_text"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/menuButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF9E49"
+        android:text="@string/fourth_button_text"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/menuButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF9E49"
+        android:text="@string/fifth_button_text"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/menuButton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF9E49"
+        android:text="@string/sixth_button_text"
+        android:textSize="20sp"/>
+</LinearLayout>
